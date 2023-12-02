@@ -101,13 +101,14 @@ a:hover {
 }
 
 .electornic_receipt {
-  text-align: center;
+  text-align: left;
+  padding-left: 16px;
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 30px;
 }
 .poster {
-  width: 400px;
+  width: 90vw;
   margin: 15px;
   border-radius: 15px;
 }
@@ -116,8 +117,9 @@ a:hover {
 }
 
 .wrapper_info {
-  text-align: center;
+  text-align: left;
   font-size: 13px;
+  padding-left: 16px;
 }
 
 .info {
@@ -157,7 +159,7 @@ a:hover {
 .sns {
   width: 35px;
   transform: translate(0, -30px);
-  margin: 4px;
+  margin: 2px;
 }
 
 .receipt_wrapper {
@@ -166,7 +168,7 @@ a:hover {
 .sns_wrapper {
   display: flex;
   float: right;
-  padding-right: 30px;
+  padding-right: 1px;
 }
 
 footer {
