@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영수증</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+</head>
+
+<body>
+    <div class="logo_wrapper">
+        <div class="receipt_wrapper">
+            <img class="logo" src="{% static 'image/logo.jpg' %}">
+            <div style="transform: translate(0, 30px); margin-left: 10px; font-size: 20px;">전자영수증</div>
+        </div>
+        <div class="sns_wrapper">
+            <img class="logo sns" src="{% static 'image/sns/x.png' %}" />
+            <img class="logo sns" src="{% static 'image/sns/y.png' %}" />
+            <img class="logo sns" src="{% static 'image/sns/b.png' %}" />
+            <img class="logo sns" src="{% static 'image/sns/i.jpg' %}" />
+            <img class="logo sns" src="{% static 'image/sns/f.png' %}" />
+        </div>
+    </div>
+    <br />
+
+    <div class="pr">≡ 홍보자료</div>
+    <div class="news">카드뉴스</div>
+    <hr class="my_line" />
+    <div class="electornic_receipt">전자영수증에 대한 모든 것</div>
+
+    <div class="wrapper_info">
+        <div>
+            <span class="info">작성일 </span>
+            <span>2023-12-02</span>
+            <span class="info">최종수정일 </span>
+            <span>2023-12-20</span>
+            <span class="info">작성자 </span>
+            <span>비즈니스</span>
+            <br />
+            <span class="info">연락처 </span>
+            <span>010-4049-8358</span>
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="wrapper">
+        <img class="poster" src="{% static 'image/cardnews/1.jpg' %}" /><br />
+        <img class="poster" src="{% static 'image/cardnews/2.jpg' %}" /><br />
+        <img class="poster" src="{% static 'image/cardnews/3.jpg' %}" /><br />
+        <img class="poster" src="{% static 'image/cardnews/4.jpg' %}" /><br />
+        <img class="poster" src="{% static 'image/cardnews/5.jpg' %}" /><br />
+        <img class="poster" src="{% static 'image/cardnews/6.jpg' %}" /><br />
+        <img class="poster" src="{% static 'image/cardnews/7.jpg' %}" /><br />
+        <img class="poster" src="{% static 'image/cardnews/8.jpg' %}" /><br />
+        <img class="poster" src="{% static 'image/cardnews/9.jpg' %}" /><br />
+        <img class="poster" src="{% static 'image/cardnews/10.jpg' %}" /><br />
+    </div>
+    <footer>
+        2023 환경공학 경진대회 by 비즈니스
+    </footer>
+</body>
+
+</html>
